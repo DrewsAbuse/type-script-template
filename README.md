@@ -1,2 +1,3 @@
-# ts-boilerplate
-TS + ESLint + Prettier + Jest 
+# TypeScript template
+
+TS + ESLint + Prettier + Jest based on [@shelf](https://github.com/shelfio) packages 
