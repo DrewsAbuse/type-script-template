@@ -3,6 +3,8 @@
 .serverless/
 coverage/
 lib/
+build/
+dist/
 node_modules/
 
 *.log

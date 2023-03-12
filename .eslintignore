@@ -1,4 +1,6 @@
-coverage/
+dist/
+build/
 lib/
+**/package-lock.json
 renovate.json
 tsconfig.json

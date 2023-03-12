@@ -1,5 +1,5 @@
 import {foo} from './';
 
-it('should work', () => {
+it('should return bar', () => {
   expect(foo()).toBe('bar');
 });

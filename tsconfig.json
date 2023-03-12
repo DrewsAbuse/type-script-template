@@ -1,7 +1,18 @@
 {
-  "extends": "@shelf/tsconfig/backend",
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "module": "NodeNext",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
     "strict": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "NodeNext"
+    }
   },
   "exclude": ["node_modules"],
   "include": ["src"]
